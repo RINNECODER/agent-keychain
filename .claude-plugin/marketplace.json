@@ -1,0 +1,11 @@
+{
+  "name": "agent-keychain",
+  "owner": { "name": "RINNECODER" },
+  "plugins": [
+    {
+      "name": "agent-keychain",
+      "source": "./",
+      "description": "Let AI agents grab and use API keys without ever seeing them: macOS Keychain MCP server + skill."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "agent-keychain",
+  "version": "0.1.0",
+  "description": "Let AI agents grab and use API keys without ever seeing them: macOS Keychain MCP server.",
+  "author": { "name": "RINNECODER" },
+  "repository": "https://github.com/RINNECODER/agent-keychain",
+  "license": "MIT",
+  "keywords": ["keychain", "secrets", "api-keys", "mcp", "macos"],
+  "mcpServers": {
+    "agent-keychain": { "command": "agent-keychain", "args": ["mcp"] }
+  }
+}
