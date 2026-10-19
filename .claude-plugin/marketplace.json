@@ -1,6 +1,11 @@
 {
   "name": "agent-keychain",
-  "owner": { "name": "RINNECODER" },
+  "owner": {
+    "name": "RINNECODER"
+  },
+  "metadata": {
+    "description": "agent-keychain: API keys for AI agents via the macOS Keychain, never shown to the model."
+  },
   "plugins": [
     {
       "name": "agent-keychain",
