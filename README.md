@@ -2,6 +2,8 @@
 
 Let AI agents grab and use API keys without ever seeing them. A macOS Keychain MCP server and Claude Code plugin, usable from Codex or any MCP-capable CLI agent.
 
+> **Status: early alpha.** It builds, but the end-to-end grab flow has not been tested on real accounts yet. Expect rough edges; issues welcome.
+
 ## Why
 
 Agents keep asking you to paste API keys into the chat. Once a key is in the chat, it sits in the transcript and the provider's logs, and the model can echo it anywhere. agent-keychain keeps the value out of the model's context entirely:
